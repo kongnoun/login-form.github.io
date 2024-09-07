@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form-Moracoding</title>
+
+    <!-- link related  -->
+     <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset class="warpper-login-form">
+            <div class="image-login-form">
+                <span class="image-name">
+                    NEON GENESIS
+                </span>
+            </div>
+            <form class="login-form">
+                    <h1>Login</h1>
+                <br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <label for="birthday">Date:</label>
+                <input type="date" id="birthday" name="birthday">
+
+                <legend>Choose your gender:</legend>
+                <div class="gender-form">
+                    <label for="male">Male</label>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-80v-280h-80v-240q0-33 23.5-56.5T400-680h160q33 0 56.5 23.5T640-600v240h-80v280H400Zm80-640q-33 0-56.5-23.5T400-800q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800q0 33-23.5 56.5T480-720Z"/></svg>
+                    <input style="margin-right: 15px;" type="radio" name="gender" id="male" value="male" checked>
+                    
+                    <label for="female">Female</label>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-80v-240H280l122-308q10-24 31-38t47-14q26 0 47 14t31 38l122 308H560v240H400Zm80-640q-33 0-56.5-23.5T400-800q0-33 23.5-56.5T480-880q33 0 56.5 23.5T560-800q0 33-23.5 56.5T480-720Z"/></svg>
+                    <input type="radio" name="gender" id="female" value="female">
+                </div>
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
