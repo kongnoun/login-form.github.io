@@ -98,6 +98,9 @@ body::before {
 }
 .container fieldset .login-form .suggest-input {
   padding: 25px 15px !important;
+  color: var(--clr-white);
+  background-color: var(--clr-lightsmoke);
+  border: 2px solid var(--clr-black);
 }
 .container fieldset .login-form .submit-btn {
   margin-top: 6px;
@@ -110,6 +113,12 @@ body::before {
   background-size: cover;
   border: 2px solid var(--clr-black);
   border-radius: 0.4em;
+  transition: 300ms ease;
+}
+.container fieldset .login-form .submit-btn:hover {
+  color: var(--clr-black);
+  transform: scale(1.04);
+  filter: contrast(1.5);
 }
 
 @media (max-width: 768px) {
